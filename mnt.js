@@ -4,14 +4,14 @@
 
 // Variables to keep track of wins, losses, and win/loss ratio
 var wins   = 0,
-		losses = 0,
-		ratio  = 0;
+    losses = 0,
+    ratio  = 0;
 
 // Simple getters
 var getAll    = _ => wins+losses,
-		getWins   = _ => wins,
-		getLosses = _ => losses,
-		getRatio  = _ => ratio;
+    getWins   = _ => wins,
+    getLosses = _ => losses,
+    getRatio  = _ => ratio;
 
 // Incrementing wins
 function addWin() {
