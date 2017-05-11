@@ -33,9 +33,9 @@ var updateRatio = _ => ratio = round(wins / losses, 2);
 // Updating HTML document only if elements exist
 function updateDocument() {
 	var docAll    = document.getElementById("mnt-all"),
-			docWins   = document.getElementById("mnt-wins"),
-			docLosses = document.getElementById("mnt-losses"),
-			docRatio  = document.getElementById("mnt-ratio");
+      docWins   = document.getElementById("mnt-wins"),
+      docLosses = document.getElementById("mnt-losses"),
+      docRatio  = document.getElementById("mnt-ratio");
 
 	if (docAll)    docAll.innerHTML    = wins+losses;
 	if (docWins)   docWins.innerHTML   = wins;
